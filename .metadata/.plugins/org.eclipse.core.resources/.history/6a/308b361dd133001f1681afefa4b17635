@@ -1,0 +1,34 @@
+import java.util.HashMap;
+
+import javax.swing.JOptionPane;
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int dias=100000, valorPagar=0, cantidadDias=0,tratamiento=0, medicamento=0;
+		int canP=0;
+		String nombre="";
+
+		HashMap<String,Integer> mapaNombres= new HashMap<String,Integer>();
+		
+		mapaNombres.put(nombre, valorPagar);
+		
+		
+	   
+		for(int p=0; p<canP; p++) {
+			canP=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de pacientes"));
+		
+			for(int i=0; i<dias; i++)
+				tratamiento=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el costo del tratamiento"));
+		        cantidadDias=Integer.parseInt(JOptionPane.showInputDialog("Ingrese los dias de hospitalizacion"));
+		        medicamento=Integer.parseInt(JOptionPane.showInputDialog("ingrese el valor del medicamento"));
+			    valorPagar= tratamiento*cantidadDias*medicamento;
+		}
+		
+		System.out.println(nombre+ "El valor a pagar es :"+valorPagar);
+		
+	
+		}
+
+}

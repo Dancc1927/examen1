@@ -1,0 +1,29 @@
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+public class Numeros {
+	public static void main(String[] args) {
+		
+		
+		ArrayList num= new ArrayList();
+		
+		
+	      int numero=Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+	      for(int n=0;n<numero;n++) {
+	    	  numero=Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+	    	  if(numero>=0) {
+	    		  
+	    		  System.out.println(num);
+	    	  }else {
+	    		  System.out.println("El numero no es valido"+num);
+	    	  }
+	      }num.add(num);
+	   
+		System.out.println(num);
+		
+		
+	}
+	
+}

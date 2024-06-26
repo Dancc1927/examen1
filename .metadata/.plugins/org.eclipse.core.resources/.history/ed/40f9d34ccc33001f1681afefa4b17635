@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int dias=10000, valorPagar=0, cantidadDias=0,tratamiento=0;
+		
+
+		HashMap<Integer,Integer> mapaNombres= new HashMap();
+		System.out.println("Ingrese el costo del tratamiento");
+	    mapaNombres.put(tratamiento,cantidadDias);
+		System.out.println("Ingrese los dias de hospitalizacion");
+		
+		
+
+	}
+
+}

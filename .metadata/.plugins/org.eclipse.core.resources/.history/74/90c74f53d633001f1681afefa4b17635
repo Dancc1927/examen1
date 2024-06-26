@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+	
+	
+public class Procesos {
+	public static void main(String[] args) {
+		
+	String nombreArt="";
+	double precio=0, descuento=0, pago=0;
+	int cantidadP=Integer.parseInt(JOptionPane.showInputDialog("ingrese el nombre del articulo"));
+	
+   ArrayList articulos= new ArrayList();
+
+   ArrayList precios= new ArrayList();
+       precios.add(10.000);
+       precios.add(20.000);
+       precios.add(30.000);
+   
+   
+	   for(int n=0; n< cantidadP; n++) {
+		   System.out.println(precios);
+	   }
+   }
+   
+}
